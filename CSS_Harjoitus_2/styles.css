@@ -7,9 +7,55 @@ h2 {
     h1 {
       font-size: 2em; }
 
+
       .content-box {
   padding: 10px;
   margin: 30px;
   background-color: #f0f0f0;
   border: 1px solid #ccc;
 }
+
+
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid #292626;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #5f1616;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #2f6e33;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #0af121;
+      color: rgb(93, 26, 201);
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #530d50;
+    }
