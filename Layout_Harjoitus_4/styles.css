@@ -133,3 +133,15 @@ table {
         color: rgb(12, 15, 29);
       
       }
+
+      .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: rgb(57, 25, 66);
+  padding: 50px;
+  text-align: left;
+}
